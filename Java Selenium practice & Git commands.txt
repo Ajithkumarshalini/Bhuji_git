@@ -1,0 +1,42 @@
+C:\Java Selenium
+
+Installation & Maven Project setup 
+---------------------------------
+JDK - 8 
+sjuaajithkumar@gmail.com | Ajith@01
+
+github
+------
+sjuaajithkumar23@gmail | Ajithkumar@01
+
+Eclipse
+https://www.eclipse.org/downloads/packages/release/2019-12/r/eclipse-ide-java-developers
+
+
+Git Commands
+--------------
+
+git --Version
+git config --global user.name "Ajithkumarselvam"
+git config --global user.email "sjuaajithkumar23@gmail"
+git config --global --list
+git log
+git status 
+git diff
+git add . --> adding all the files, what are modifies 
+
+first_file.txt - file name in my local
+create a branch --> git init -b main
+
+creating the file --> git add first_file.txt
+after use the commit --> git commit _m "my first commit"
+
+again we have to use command 
+git add first_file.txt
+git commit _m "my second commit"
+----------------------------------
+if you want delete any particular previous file
+git rm --cached filename
+again use the commit command 
+git commit -m "msg"
+----------------------------------
