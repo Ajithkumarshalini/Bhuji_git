@@ -39,4 +39,5 @@ if you want delete any particular previous file
 git rm --cached filename
 again use the commit command 
 git commit -m "msg"
+git push
 ----------------------------------
