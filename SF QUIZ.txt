@@ -1,0 +1,15 @@
+1) How do you create your first trailhead playground?
+
+You dont, we create it for you by salesforce.com
+
+-------------------------------------------------------
+
+2) In which of these scenarios do you need to know your Trailhead playground username and password?
+
+To Authorize your org for use with the salesforce CLI
+-------------------------------------------------------
+
+3) When should you change your username in a Trailhead Playground?
+
+Never 
+-------------------------------------------------------

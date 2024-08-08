@@ -1,0 +1,248 @@
+question bank of salesforce:
+...............................................................................................................
+
+1) What is Cloud Computing?
+Delivery of computing services such as servers, databases, networking and software and allowing user to access.
+
+...............................................................................................................
+
+2) What is Paas, Saas, Iaas?
+
+Plarform as services      - Salesforce mostly used pas beacuse we can customaizble and here we have some rules and customaizble
+Software as services      - Here we can used only the software functionality, we cant modify 
+Infrastructure as services - We can modify 100% here, this is get the user name and password to the cloud we can modify anything --> AMAZON
+
+................................................................................................................
+
+3) What is Sandbox and the Type of Sandbox in Salesforce?
+
+Sandbox is a test env that is duplicate copy of prod environment 
+
+Types: 
+Devopler sandbox
+Devolper pro sandbox
+Partial copy sandbox
+Full sandbox
+................................................................................................................
+
+4) What is Object in Salesforce?
+
+Object are database tables that permits you to store data.
+Standard object-> default 
+Custom object -> user
+
+................................................................................................................
+
+5) What are the different types of object relations in Salesforce?
+
+1) Master Detail --> Strong coupled relationship, Parent record was deleted automaically child records are deleted
+2) Lookup        --> Loosly coupled relationship, Is connect one object to another object one to one many fashion
+3) Hiearchy      --> Unique relationship, its connecting to user from user hiearchies
+
+................................................................................................................
+
+6)What is a junction object in Salesforce?
+
+Custom object used to establish a many to many relationships between two objects
+
+................................................................................................................
+How many LR(lookup relationship) fields can be created in an object?
+What is a Roll-up Summary field?
+How many way to create What is a Roll-up Summary field
+What is field dependency
+What is the difference between role and profile
+What are Permission sets?
+What is the use of muting permission set in permission set group
+How many ways we can share a record?
+What are Audit Fields in Salesforce?
+What is an Audit trail?
+What is a Queue in Salesforce?
+What is a Public Group
+What is the difference between static and dynamic dashboards in Salesforce?
+What are the different types of reports available in Salesforce?
+What is Report Type?
+What are WhoId and WhatId in activities?
+What is a bucket field in reports?
+Way to clean data in Salesforce
+Differences between Import wizard and Data loader
+What is “Data Skew” in Salesforce
+What is cascade deletion?
+What is a Flow?
+Types of flows in Salesforce
+Name a few global variables which are used in formula and validation rules.
+Is there any special permission available to edit read-only fields? Please explain
+What are the differences between Object-specific actions and global actions?
+Mention one impact point to check before deleting a role from the org.
+Let’s say I create two accounts a1 and a2. Now, I make a2 as the parent of a1. Now, what will happen if I try to make a1 parent of a2
+How do you pass the current record id to a screen flow? Also, is it possible to send the entire record?
+How do you check your org is in which release
+What is a big object? Give an example of a standard big object
+Is it possible to use formula field in roll up summary calculation which is referring to another object?
+Suppose there is a custom field which has a default value but not added to the page layout. Now, if you clone a record from the UI, what would be the value of the field in the new record?
+What is the consideration while deleting an approval process?
+What happens during Lead merging?
+What is Apex Hammer?
+How do you convert 15 digit record Id to 18 digit Id in formula and validation rule?
+Is it possible to hard delete records using data loader?
+Is it possible to show validation errors in screen flow?
+You have created a custom object. While creating a report on the object, you are not getting the option to select the object in the report builder. What could be the issue?
+What are the possible statuses of a permission set group?
+How can we enable email approval response? Mention a few response keywords which will approve/reject the request
+You are not getting an option to create list custom settings. Which setting needs to be enabled?
+Once a lead is converted it is not visible anymore in the UI. Is there any permission available to view converted leads?
+You are trying to convert a master detail relationship field to lookup relationship. But you are not able to see the change field type button. What could be the reason?
+One of the users in your org is not able to create campaigns. You checked the profile/ permission sets and ensured that he has access to create campaigns. What could be the reason?
+What happens when you try to delete a public group?
+What happens when you try to delete a queue?
+What is Cloud computing?
+Expand CRM?
+List some CRM Software’s?
+What are the Advantages of Cloud Computing?
+What is the definition of CRM?
+What are deployment modes of cloud computing?
+What is PaaS?
+What is SaaS?
+What is IaaS?
+What is Public Cloud?
+What is Private Cloud?
+What is Hybrid Cloud?
+What are the different types of Cloud Service providers?
+Difference between Public and Private Cloud?
+Salesforce.com is based on which cloud ?
+What are common factors on SaaS, PaaS, and IaaS?
+What is Salesforce?
+Different Salesforce Editions?
+Number of Salesforce Editions released per year?
+Difference between Salesforce.com and Force.com?
+What is Database.com?
+How many types of portals are available in Salesforce?
+What is App in Sales force?
+Different types of object in Salesforce.com? And why they called so?
+What is an object in Sales force?
+What is TAB in Salesforce?
+List examples of custom field types?
+What are the Standard and Custom Fields in Salesforce?
+How many custom fields can I created in an object?
+What is a profile?
+What is a Role?
+Difference between Role and Profile?
+Number of standard profiles available in Salesforce.com?
+How can you use the term “Transfer Record” in profile?
+Define Company Profile?
+How to get security token in Salesforce.com?
+What is a Fiscal Year in Salesforce?
+What is a dependent pick list?
+What is Page Layout and Record Types?
+How to delete user from Salesforce?
+How to freeze users in salesforce.com?
+In how many ways can we store files, images and documents in salesforce.com? what are they?
+What are Static Resources?
+List some standard indexed fields in salesforce.com?
+Which fields are Indexed by default in Salesforce?
+Which fields cannot be added as a custom Index?
+When Standard Indexed fields are used in Salesforce.com?
+When Custom Indexed fields are used in salesforce.com?
+In salesforce, Can two users’ can have same profile?
+Is it possible to edit formula field values in a record?
+What is a Sharing Rule?
+What is Manual Sharing?
+What is permission set?
+Difference between profiles and permission sets?
+How can you define Field Dependency?
+How many field dependencies we can use in Visual Force page?
+Tell me about Field-Level Security?
+Briefly describe about Field-Level Security?
+What are Login Hours and Login IP Ranges?
+What is a User Record?
+What is a Record Owner?
+What are Organization Wide Defaults?
+What is a Role and Role Hierarchy?
+What is Access at the Role Level?
+What are the different types of Sharing Rules in Salesforce and explain them?
+In how many ways can we share a record?
+Uses cases for Sharing Rules in Salesforce?
+Best Practices of Creating Contact Sharing Rules?
+How can i provide record level access to user’s in an organisation? then what should i use from Salesforce security model?
+If i want Object level accesses then what should i use from Salesforce security model?
+In Partner Community, external user is having appropriate OWD and Profile Settings for Opportunity or consider any other Object. However they are getting insufficient privilege access, what might be cause of this error ?
+What are governor limits?
+Is it possible to bypass Grant Login access using Hierarchies in case of standard objects?
+Can we use sharing rules to restrict data access?
+Is it possible to create sharing rules for detail object?
+How can you change the setting “Grant Access Using Hierarchies” for Standard Objects ?
+What are the Mandatory points that you think while creating User, Role or Profile?
+While setting OWD (Organization wide sharing), can we change/modify the setting of child record in case of Master-Detail relationship?
+While setting OWD (Organization wide sharing), can we change/modify the setting of child record in case of Master-Detail relationship?
+Number of accesses available in Organization Wide Defaults and what are they?
+In Partner Community, external user is having appropriate OWD and Profile Settings for Opportunity or consider any other Object. However they are getting insufficient privilege access, what might be cause of this error ?
+What are the different types of Relationships in SFDC?What are they?
+What is a “Lookup Relationship”?
+What is “Master-Detail Relationship”?
+What is a “Self Relationship”?
+What is Roll-up summary?
+How to create Roll-up summary field on lookup relationship?
+Can we have Roll up Summary fields in case of Parent-Child Relationships?
+Is it possible to edit Roll up summary field value in a record?
+Can we create Roll up summary field on parent object ?
+How to create Many – to – Many relationship?
+What is Junction Object?
+What are the main things need to consider in the “Master-Detail Relationship”?
+Can we convert the look up relationship to Master Detail relationship? If so How can we convert?
+Can we create Master Detail relationship on existing records?
+In case of Master-Detail relationship, on Update of master record can we update the field of child record using workflow rule?
+In case of Master-Detail relationship, on Update of child record can we update the field of Parent record using workflow rule?How to move Relationships to production from Full Sandbox?
+What happens to detail record when master record is deleted?
+What happens to child record when a master record is deleted in Lookup Relationship?
+A custom object contains some records, now my requirement is to create field in this object with master detail relationship.
+Can we create master detail relationship in this case?
+In case of Master-Detail relationship, on Update of master record can we update the field of child record using workflow rule?
+What are different kinds of reports?
+What are Standard Reports?
+What are custom Reports?
+What is a Tabular report ?
+What is a Summary Report?
+What is a Matrix Report?
+What is Trend Report?
+What are Custom Report Types?
+Who can run Reports?
+What is a bucket field in reports?
+Is it possible to delete reports using Apex?
+What are Dashboards?
+Dashboard Components?
+What are dynamic Dashboards?
+Can we schedule dynamic dashboards?
+Explain dynamic Dashboard.
+Who can access “drag and drop dashboard”?Which type of report can be used for dashboard components?
+Which permission is required to set the running user other than you in dashboard?What is the use of “floating report header”?
+How to enable “floating report header”?
+What is Analytical Snapshot in Salesforce.com?
+What is Workflow?
+Different Workflow Components available in salesforce?
+What are the different workflow actions available in Salesforce?
+What is a Workflow Rule?
+What is a Workflow Task?
+What is a Workflow Alert?
+What is a Workflow Field Update?
+What is Time-Dependent Workflow?
+Working with Time-Dependent workflow?
+Time-Dependent Workflow – Considerations?
+Limitations of Time-dependent workflow?
+In which criteria of a workflow – “time dependent workflow action” cannot be created ?
+When you can’t add Time dependent action in Workflow rule?
+We have a “Time Based Workflow” and there is Action scheduled to be executed. If we Deactivate the workflow, Scheduled actions will be removed from queue or not?
+We have “Time Based Workflow” and there is action scheduled to be executed. Can we delete that workflow?
+How to clear the Time based workflow action queue?
+While creating workflow on Task, what difference observed on available actions?
+For which criteria in Workflow “Time dependent workflow action” cannot be created?
+Suppose if a record meets workflow criteria for time based workflow action, the action goes in queue. Later, before the time based action is triggered, the same record gets modified and the criteria previously met is changed and now it does not meet the workflow criteria. What happens to the time based action placed in Queue?
+Difference between Trigger and Workflow?
+"Briefly describe about Data Loader?
+What are the different actions that can be made using data loaders?
+How can we insert a record using Data Loader?
+How to delete a record using Data loader?
+How to update a record using Data Loader?
+How to export records from Salesforce using Data Loader?
+Explain about UPSERT?
+How to handle comma fields while uploading using Data loader?
+After Exporting data using Data Loader, Some time it appears that data is on New Line (Carriage Return) when we open CSV file in Microsoft Excel. For example, Address Data separated on different lines. How can we override this problem?
+Explain me about Export and Export all in Data Loader?"
