@@ -13,3 +13,25 @@ To Authorize your org for use with the salesforce CLI
 
 Never 
 -------------------------------------------------------
+What’s a Package?
+
+A package is a set of pre-created configurations and developments.
+
+
+
+Enroll parents/parents in law in voluntary plans:
+•	Click on SELECT in front of Voluntary Parents policy.
+•	Click on ‘ADD’ in front of the coverage amount you wish to select.
+•	Once you select the plan. Click on the drop-down arrow under Who's covered and tick mark on your parents name and then OK
+•	Click on Continue
+
+Nominate beneficiary in GTL and GPA policy:
+•	Click ‘SELECT’ corresponding to GTL
+•	CHANGE
+•	Tick PRIMARY(next to the dependent you wish to declare)
+•	NEXT
+•	Allocate Percentage(total should sum up to 100)
+•	NEXT & SAVE
+•	CONTINUE
+
+Kindly follow the same process for GPA as well. Click on Confirm Choices.
