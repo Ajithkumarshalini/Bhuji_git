@@ -46,13 +46,55 @@ Custom object -> user
 Custom object used to establish a many to many relationships between two objects
 
 ................................................................................................................
-How many LR(lookup relationship) fields can be created in an object?
-What is a Roll-up Summary field?
-How many way to create What is a Roll-up Summary field
-What is field dependency
-What is the difference between role and profile
-What are Permission sets?
-What is the use of muting permission set in permission set group
+
+7) How many LR(lookup relationship) fields can be created in an object?
+40 lookup fields
+
+................................................................................................................
+
+8) What is a Roll-up Summary field?
+
+Salesforce aggregates data from child records to parent record in master - detail relationship.
+such as count, min, max
+
+................................................................................................................
+
+9) How many way to create What is a Roll-up Summary field
+
+count 
+max
+min
+sum
+................................................................................................................
+
+10) What is field dependency
+
+filter based on the selection 
+
+controlling field 
+Dependent field 
+................................................................................................................
+
+11) What is the difference between role and profile
+
+role : what data users can see
+profile: what users can do within salesforce
+
+................................................................................................................
+
+12) What are Permission sets?
+
+The administrators to grant additonal permissions for special tasks or roles
+
+................................................................................................................
+
+13) What is the use of muting permission set in permission set group?
+
+adminstrators diable the specific permissions
+1) Temporary restrictions
+2) Dynamic Management 
+
+----------------------------------------------------------------------------------------------------------------
 How many ways we can share a record?
 What are Audit Fields in Salesforce?
 What is an Audit trail?
