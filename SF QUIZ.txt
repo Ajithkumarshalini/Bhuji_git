@@ -169,3 +169,20 @@ installed packages
 
 Develop a plan, including budjet, timing, and key department use cases
 ---------------------------------------------------------------
+21) Which statement is true about Salesforce for Nonprofits?
+
+Its a set of products and service that helps non profits manage their missions
+---------------------------------------------------------------
+22) Which general term describes a system that helps teams at any organization track their interactions with contacts, gather insights, and collaborate?
+
+CRM 
+----------------------------------------------------------------
+23) Which Nonprofit Cloud feature set includes tools to enter and manage gifts from commitment through financial reconciliation?
+
+Fundraising
+----------------------------------------------------------------
+24) What is the name of the program that helps eligible nonprofits get started with Salesforce and Nonprofit Cloud?
+
+The power of us program
+---------------------------------------------------------------
+

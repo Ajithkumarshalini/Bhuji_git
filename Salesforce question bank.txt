@@ -95,13 +95,51 @@ adminstrators diable the specific permissions
 2) Dynamic Management 
 
 ----------------------------------------------------------------------------------------------------------------
-How many ways we can share a record?
-What are Audit Fields in Salesforce?
-What is an Audit trail?
-What is a Queue in Salesforce?
-What is a Public Group
-What is the difference between static and dynamic dashboards in Salesforce?
-What are the different types of reports available in Salesforce?
+14) How many ways we can share a record?
+
+Over 25 ways to share a records
+
+Manual Sharing 
+Role Hiearchy  
+Sharing Rules
+Teams
+Public Groups
+
+----------------------------------------------------------------------------------------------------------------
+15) What are Audit Fields in Salesforce?
+
+created date
+created by
+last modified date
+last modified by
+----------------------------------------------------------------------------------------------------------------
+16) What is an Audit trail?
+
+an officail inspection of a org account 
+----------------------------------------------------------------------------------------------------------------
+17) What is a Queue in Salesforce?
+
+Collection of records without an owner, allowing user with access to claim ownership
+----------------------------------------------------------------------------------------------------------------
+18) What is a Public Group
+
+Collections of users that can be utilized to simply sharing setting and manage access to records.
+----------------------------------------------------------------------------------------------------------------
+19) What is the difference between static and dynamic dashboards in Salesforce?
+
+Differenece data presentation and user experince
+
+Static Dashboards  - All users are able to view the same data irrespctive of the logged in users access
+Dynamic Dashoboards - Users view data that the logged in user has access to specific to them
+----------------------------------------------------------------------------------------------------------------
+20) What are the different types of reports available in Salesforce?
+
+Tabular
+Summary
+Matrix
+Joined
+Custom 
+----------------------------------------------------------------------------------------------------------------
 What is Report Type?
 What are WhoId and WhatId in activities?
 What is a bucket field in reports?
@@ -136,15 +174,11 @@ You are trying to convert a master detail relationship field to lookup relations
 One of the users in your org is not able to create campaigns. You checked the profile/ permission sets and ensured that he has access to create campaigns. What could be the reason?
 What happens when you try to delete a public group?
 What happens when you try to delete a queue?
-What is Cloud computing?
 Expand CRM?
 List some CRM Software’s?
 What are the Advantages of Cloud Computing?
 What is the definition of CRM?
 What are deployment modes of cloud computing?
-What is PaaS?
-What is SaaS?
-What is IaaS?
 What is Public Cloud?
 What is Private Cloud?
 What is Hybrid Cloud?
