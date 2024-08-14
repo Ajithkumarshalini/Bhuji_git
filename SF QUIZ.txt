@@ -79,7 +79,7 @@ You dont, we create it for you by salesforce.com
 
 -------------------------------------------------------
 
-2) In which of these scenarios do you need to know your Trailhead playground username and password?
+2)when you need to know your Trailhead playground username and password?
 
 To Authorize your org for use with the salesforce CLI
 -------------------------------------------------------
@@ -185,4 +185,51 @@ Fundraising
 
 The power of us program
 ---------------------------------------------------------------
+25) What does NPSP Health Check do?
+
+Runs tests related to your NPSP settings and objects and generate a report
+---------------------------------------------------------------
+26) When is the best time to run Salesforce Optimizer?
+
+Before installing a new applicattion and before each salesforce release
+---------------------------------------------------------------
+27) when are the major feature releases for both NPSP and the Salesforce Platform?
+
+Spring, summer, winter
+---------------------------------------------------------------
+28) True or false: Features in a Salesforce seasonal release are never auto-enabled for users.
+
+False
+---------------------------------------------------------------
+29) What type of sandbox would you create if you wanted a copy of your entire production org, including all record data?
+
+Full sandbox
+---------------------------------------------------------------
+30) Where should you go in your Salesforce org to set up or refresh a sandbox org?
+
+Setup
+---------------------------------------------------------------
+31) When your real-world data is important for training your users, what type of sandbox should you use?
+
+Partial copy or full
+---------------------------------------------------------------
+32) How can sandboxes help you prepare for the release of changes and new features?
+
+Testing automaically enabled the features to create training plans
+Determning if you want to turn on optional features and making a plan to deploy them in production
+----------------------------------------------------------------
+33) NPSP is distributed as a type of software that encourages exchange, collaboration, and transparency. 
+What is the name for this type of software?
+
+Open source
+----------------------------------------------------------------
+34) True or false: Community members can submit feature ideas to the NPSP product team.
+
+True 
+----------------------------------------------------------------
+35) NPSP
+
+Nonprofit Succes pack 
+----------------------------------------------------------------
+
 

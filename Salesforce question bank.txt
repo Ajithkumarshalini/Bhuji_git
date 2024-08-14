@@ -100,8 +100,8 @@ adminstrators diable the specific permissions
 Over 25 ways to share a records
 
 Manual Sharing 
-Role Hiearchy  
 Sharing Rules
+Role Hiearchy  
 Teams
 Public Groups
 
@@ -119,18 +119,17 @@ an officail inspection of a org account
 ----------------------------------------------------------------------------------------------------------------
 17) What is a Queue in Salesforce?
 
-Collection of records without an owner, allowing user with access to claim ownership
+SALESFORCE queues are list of records that have no owner. the records that are not assigned to anyone
 ----------------------------------------------------------------------------------------------------------------
 18) What is a Public Group
 
-Collections of users that can be utilized to simply sharing setting and manage access to records.
+in salesforce, public gorups can be created by adminstrators and delegeted administrators. anyone in the org can use the public group
+
 ----------------------------------------------------------------------------------------------------------------
 19) What is the difference between static and dynamic dashboards in Salesforce?
 
-Differenece data presentation and user experince
-
-Static Dashboards  - All users are able to view the same data irrespctive of the logged in users access
-Dynamic Dashoboards - Users view data that the logged in user has access to specific to them
+Static Dashboards  - fixed data
+Dynamic Dashoboards - real time or N real time data
 ----------------------------------------------------------------------------------------------------------------
 20) What are the different types of reports available in Salesforce?
 
@@ -140,13 +139,43 @@ Matrix
 Joined
 Custom 
 ----------------------------------------------------------------------------------------------------------------
-What is Report Type?
-What are WhoId and WhatId in activities?
-What is a bucket field in reports?
-Way to clean data in Salesforce
+21) What is Report Type?
+
+Report type provides objects, their relationships, fields in the reports 
+----------------------------------------------------------------------------------------------------------------
+22) What are WhoId and WhatId in activities?
+
+Events and Task objects 
+
+who -- contact, lead, person account
+what -- oppurnities, cases, accounts, campaigns
+
+----------------------------------------------------------------------------------------------------------------
+23) What is a bucket field in reports?
+
+its a feature that allows users to categorize value in a field without creating a custom formula field.
+----------------------------------------------------------------------------------------------------------------
+24) Way to clean data in Salesforce
+
+Regular data audits
+Remove duplicates
+Utilize Automation tools
+
+----------------------------------------------------------------------------------------------------------------
 Differences between Import wizard and Data loader
+
+Import Wizard - CLIENT Based application that's suited for larger files 
+
+Data loader -   WEB Based tool that's good for simple data imports.
+----------------------------------------------------------------------------------------------------------------
 What is “Data Skew” in Salesforce
+
+large number of records owned by a single user, this can have serious consequences such as slowing down performance and casuing system errors
+----------------------------------------------------------------------------------------------------------------
 What is cascade deletion?
+
+Its feature that automaically deletes related or child records when a parent record is deleted.
+----------------------------------------------------------------------------------------------------------------
 What is a Flow?
 Types of flows in Salesforce
 Name a few global variables which are used in formula and validation rules.
