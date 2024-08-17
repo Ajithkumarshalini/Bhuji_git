@@ -129,7 +129,7 @@ in salesforce, public gorups can be created by adminstrators and delegeted admin
 19) What is the difference between static and dynamic dashboards in Salesforce?
 
 Static Dashboards  - fixed data
-Dynamic Dashoboards - real time or N real time data
+Dynamic Dashoboards - real time or Near real time data
 ----------------------------------------------------------------------------------------------------------------
 20) What are the different types of reports available in Salesforce?
 
@@ -162,27 +162,52 @@ Remove duplicates
 Utilize Automation tools
 
 ----------------------------------------------------------------------------------------------------------------
-Differences between Import wizard and Data loader
+25) Differences between Import wizard and Data loader
 
 Import Wizard - CLIENT Based application that's suited for larger files 
 
 Data loader -   WEB Based tool that's good for simple data imports.
 ----------------------------------------------------------------------------------------------------------------
-What is “Data Skew” in Salesforce
+26) What is “Data Skew” in Salesforce
 
 large number of records owned by a single user, this can have serious consequences such as slowing down performance and casuing system errors
 ----------------------------------------------------------------------------------------------------------------
-What is cascade deletion?
+27) What is cascade deletion?
 
 Its feature that automaically deletes related or child records when a parent record is deleted.
 ----------------------------------------------------------------------------------------------------------------
-What is a Flow?
-Types of flows in Salesforce
-Name a few global variables which are used in formula and validation rules.
-Is there any special permission available to edit read-only fields? Please explain
-What are the differences between Object-specific actions and global actions?
-Mention one impact point to check before deleting a role from the org.
-Let’s say I create two accounts a1 and a2. Now, I make a2 as the parent of a1. Now, what will happen if I try to make a1 parent of a2
+28) What is a Flow?
+
+powerful automation tool, that automates complex business process
+----------------------------------------------------------------------------------------------------------------
+29) Types of flows in Salesforce
+
+5 types
+
+Autolaunched flows
+Screen flows
+Schedlue trigger flow
+Record-triggered flow
+platform event- triggered flows
+
+----------------------------------------------------------------------------------------------------------------
+30) Name a few global variables which are used in formula and validation rules.
+
+$User
+$Organization
+$ObjectType
+$Setup
+$Action
+----------------------------------------------------------------------------------------------------------------
+31) Is there any special permission available to edit read-only fields? Please explain
+
+only option is page layout level, is the Edit Read only field system permits
+----------------------------------------------------------------------------------------------------------------
+32) What are the differences between Object-specific actions and global actions?
+
+Object specific actions --- related to particular object
+global actions          --- can be placed anywhere that actions are supported
+----------------------------------------------------------------------------------------------------------------
 How do you pass the current record id to a screen flow? Also, is it possible to send the entire record?
 How do you check your org is in which release
 What is a big object? Give an example of a standard big object
@@ -351,3 +376,6 @@ Explain about UPSERT?
 How to handle comma fields while uploading using Data loader?
 After Exporting data using Data Loader, Some time it appears that data is on New Line (Carriage Return) when we open CSV file in Microsoft Excel. For example, Address Data separated on different lines. How can we override this problem?
 Explain me about Export and Export all in Data Loader?"
+33) Mention one impact point to check before deleting a role from the org.
+Let’s say I create two accounts a1 and a2. Now, I make a2 as the parent of a1. Now, what will happen if I try to make a1 parent of a2
+---------------------------------------------------------------------------------------------------------------
