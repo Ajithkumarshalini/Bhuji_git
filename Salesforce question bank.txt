@@ -208,30 +208,107 @@ only option is page layout level, is the Edit Read only field system permits
 Object specific actions --- related to particular object
 global actions          --- can be placed anywhere that actions are supported
 ----------------------------------------------------------------------------------------------------------------
-How do you pass the current record id to a screen flow? Also, is it possible to send the entire record?
-How do you check your org is in which release
-What is a big object? Give an example of a standard big object
-Is it possible to use formula field in roll up summary calculation which is referring to another object?
-Suppose there is a custom field which has a default value but not added to the page layout. Now, if you clone a record from the UI, what would be the value of the field in the new record?
-What is the consideration while deleting an approval process?
-What happens during Lead merging?
-What is Apex Hammer?
-How do you convert 15 digit record Id to 18 digit Id in formula and validation rule?
-Is it possible to hard delete records using data loader?
-Is it possible to show validation errors in screen flow?
-You have created a custom object. While creating a report on the object, you are not getting the option to select the object in the report builder. What could be the issue?
-What are the possible statuses of a permission set group?
-How can we enable email approval response? Mention a few response keywords which will approve/reject the request
-You are not getting an option to create list custom settings. Which setting needs to be enabled?
-Once a lead is converted it is not visible anymore in the UI. Is there any permission available to view converted leads?
-You are trying to convert a master detail relationship field to lookup relationship. But you are not able to see the change field type button. What could be the reason?
-One of the users in your org is not able to create campaigns. You checked the profile/ permission sets and ensured that he has access to create campaigns. What could be the reason?
+33) What is AppExchange?  
+
+AppExchange is the marketplace for all things Salesforce, including apps, components, and more.
+----------------------------------------------------------------------------------------------------------------
+40) How do you check your org is in which release
+
+setup/companysetting/company info --> instance -- here you can find the realse
+----------------------------------------------------------------------------------------------------------------
+41) What is a big object? Give an example of a standard big object-
+
+FieldHistoryArchieve -> it will store more datas without down the performing, FieldHistoryArchieve is storing the audit trail datas
+----------------------------------------------------------------------------------------------------------------
+42) What is the consideration while deleting an approval process?
+
+Deactive the process
+pending process
+backup records
+-----------------------------------------------------------------------------------------------------------------
+43) What is Apex Hammer?
+
+Apex is strongly type object oreiented program its created by salesforce
+-----------------------------------------------------------------------------------------------------------------
+44) How do you convert 15 digit record Id to 18 digit Id in formula and validation rule?
+
+using CASEFILED() function..
+-----------------------------------------------------------------------------------------------------------------
+45) What are the possible statuses of a permission set group?
+
+
+Active
+Failed
+Pending
+-----------------------------------------------------------------------------------------------------------------
+46) Expand CRM?
+
+Customer Relationship Managemen, its ingerate to the database mainting the docs, data azquiton, customer care like etc
+-----------------------------------------------------------------------------------------------------------------
+47) List some CRM Software’s?
+
+salesforce
+microsoft dynamics
+sip
+
+-----------------------------------------------------------------------------------------------------------------
+48) Search Within a Single Object
+
+FIND {term} RETURNING ObjectTypeName
+
+FIND {march 2016 email} RETURNING Campaign
+
+-----------------------------------------------------------------------------------------------------------------
+49) Search Within Custom Objects
+
+FIND {pink hi\-top} RETURNING Merchandise__c
+
+-----------------------------------------------------------------------------------------------------------------
+50) SOSL and SOQL.
+
+Salesforce object search language
+salesforce object query language
+
+-----------------------------------------------------------------------------------------------------------------
+51)Search Within Multiple Objects
+
+FIND {term} RETURNING ObjectTypeName1, ObjectTypeName2, ObjectTypeNameYouGetTheIdea
+FIND {recycled materials} RETURNING Product2, ContentVersion, FeedItem
+
+-----------------------------------------------------------------------------------------------------------------
+52) Salesforce search?
+
+Once customer created or existing the records, it will automaically stored in database, 
+then it will take a copy of datas to the token, uses search the data, it will return the matching results
+
+-----------------------------------------------------------------------------------------------------------------
+53) What is salesforce?
+
+Salesforce is desgined to help you sell, service, market, anayazle, connect with your customaers.
+-----------------------------------------------------------------------------------------------------------------
+54) Record?
+
+An item you're tracking in your database; if your data is like a spreadsheet, then a record is a row on the spreadsheet
+-----------------------------------------------------------------------------------------------------------------
+55) Field?
+
+A place where you store a value, like a name or address; using our spreadsheet example, a field would be a column on the spreadsheet
+-----------------------------------------------------------------------------------------------------------------
+56) object?
+
+A table in the database; in that spreadsheet example, an object is a tab on the spreadsheet
+-----------------------------------------------------------------------------------------------------------------
+57) org?
+
+Short for “organization,” the place where all your data, configuration, and customization lives. 
+You and your users log in to access it. You might also hear this called “your instance of Salesforce”
+-----------------------------------------------------------------------------------------------------------------
+58) App?
+
+A set of fields, objects, permissions, and functionality to support a business process
+-----------------------------------------------------------------------------------------------------------------
 What happens when you try to delete a public group?
 What happens when you try to delete a queue?
-Expand CRM?
-List some CRM Software’s?
-What are the Advantages of Cloud Computing?
-What is the definition of CRM?
 What are deployment modes of cloud computing?
 What is Public Cloud?
 What is Private Cloud?
@@ -240,7 +317,6 @@ What are the different types of Cloud Service providers?
 Difference between Public and Private Cloud?
 Salesforce.com is based on which cloud ?
 What are common factors on SaaS, PaaS, and IaaS?
-What is Salesforce?
 Different Salesforce Editions?
 Number of Salesforce Editions released per year?
 Difference between Salesforce.com and Force.com?
@@ -253,9 +329,6 @@ What is TAB in Salesforce?
 List examples of custom field types?
 What are the Standard and Custom Fields in Salesforce?
 How many custom fields can I created in an object?
-What is a profile?
-What is a Role?
-Difference between Role and Profile?
 Number of standard profiles available in Salesforce.com?
 How can you use the term “Transfer Record” in profile?
 Define Company Profile?
@@ -306,16 +379,12 @@ While setting OWD (Organization wide sharing), can we change/modify the setting 
 Number of accesses available in Organization Wide Defaults and what are they?
 In Partner Community, external user is having appropriate OWD and Profile Settings for Opportunity or consider any other Object. However they are getting insufficient privilege access, what might be cause of this error ?
 What are the different types of Relationships in SFDC?What are they?
-What is a “Lookup Relationship”?
-What is “Master-Detail Relationship”?
 What is a “Self Relationship”?
-What is Roll-up summary?
 How to create Roll-up summary field on lookup relationship?
 Can we have Roll up Summary fields in case of Parent-Child Relationships?
 Is it possible to edit Roll up summary field value in a record?
 Can we create Roll up summary field on parent object ?
 How to create Many – to – Many relationship?
-What is Junction Object?
 What are the main things need to consider in the “Master-Detail Relationship”?
 Can we convert the look up relationship to Master Detail relationship? If so How can we convert?
 Can we create Master Detail relationship on existing records?
@@ -376,6 +445,18 @@ Explain about UPSERT?
 How to handle comma fields while uploading using Data loader?
 After Exporting data using Data Loader, Some time it appears that data is on New Line (Carriage Return) when we open CSV file in Microsoft Excel. For example, Address Data separated on different lines. How can we override this problem?
 Explain me about Export and Export all in Data Loader?"
-33) Mention one impact point to check before deleting a role from the org.
+Mention one impact point to check before deleting a role from the org.
 Let’s say I create two accounts a1 and a2. Now, I make a2 as the parent of a1. Now, what will happen if I try to make a1 parent of a2
+How do you pass the current record id to a screen flow? Also, is it possible to send the entire record?
+Is it possible to use formula field in roll up summary calculation which is referring to another object?
+Suppose there is a custom field which has a default value but not added to the page layout. Now, if you clone a record from the UI, what would be the value of the field in the new record?
+What happens during Lead merging?
+Is it possible to hard delete records using data loader?
+Is it possible to show validation errors in screen flow?
+You have created a custom object. While creating a report on the object, you are not getting the option to select the object in the report builder. What could be the issue?
+How can we enable email approval response? Mention a few response keywords which will approve/reject the request
+You are not getting an option to create list custom settings. Which setting needs to be enabled?
+Once a lead is converted it is not visible anymore in the UI. Is there any permission available to view converted leads?
+You are trying to convert a master detail relationship field to lookup relationship. But you are not able to see the change field type button. What could be the reason?
+One of the users in your org is not able to create campaigns. You checked the profile/ permission sets and ensured that he has access to create campaigns. What could be the reason?
 ---------------------------------------------------------------------------------------------------------------

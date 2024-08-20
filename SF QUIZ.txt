@@ -243,5 +243,145 @@ Add a parent Account to the accont's record
 
 Co-workers you usally work with on your accounts
 ----------------------------------------------------------------
+39) What is the single most important thing to do when using AppExchange?
+
+Login and get personalized recommendations
+----------------------------------------------------------------
+40) What area of AppExchange lets you discover solutions according to your business challenge or industry?
+
+Explore
+----------------------------------------------------------------
+41) There are many ways to engage with AppExchange. What are ways you can connect with AppExchange?
+
+Sign up fo the appexchange newsletter
+Find us on LInkedIn and x
+----------------------------------------------------------------
+42) As you find more solutions for your production and sandbox orgs, how can you manage all of them?
+
+Go to my install & Subscription page
+----------------------------------------------------------------
+43) One of the key attributes of Scrum at Salesforce is:
+
+Its framework to organize delivery to customers
+----------------------------------------------------------------
+44) The five Scrum values are:
+
+Focus
+courage
+openness
+commitment
+respect
+----------------------------------------------------------------
+45) The main Scrum team roles have the following traits.
+
+The team does not work, the scurm lead helps facilitate the process, and the product owner defines the direction for the team
+----------------------------------------------------------------
+46) Which of the following is true of the Scrum elements of delivery?
+
+The product backlog is a list including everything that we think needs to be done
+----------------------------------------------------------------
+47) Finishing work in a sprint is important because:
+
+We value eliminating waste, and unfinished work is a form of water that does not help us deliver value to our customers
+----------------------------------------------------------------
+48) What is the difference between a product backlog and a sprint backlog?
+
+The product backlog is everything that can possibly be needed, the sprint backlog is the work committed by the team for the next 2 weeks
+----------------------------------------------------------------
+49) What are the two main types of Scrum meetings we have at Salesforce?
+
+Inspect and adapt, and planning meetings
+----------------------------------------------------------------
+50) Which meetings are important for planning?
+
+Release planning, sprint planning, backlog refinement, daily standup
+----------------------------------------------------------------
+51) The primary differnece between a demo/review and retrospective is 
+
+The first inspects and adapts the prodct or service and the second inspects how the team works
+---------------------------------------------------------------
+52) what is kanban
+
+ This is a method for the more infrastructure teams that support production or customer issues use. 
+--------------------------------------------------------------
+53) Kanban teams deliver fast by:
+
+Visulaziton flow, limiting work in progress with visual indictors, managing flow, and adopting with evolutionary changes 
+--------------------------------------------------------------
+54) Kanban teams respond to unplanned work and changes by:
+
+Assesing the priority of the new request and starting the work then it is at the top of the ready coulmn
+--------------------------------------------------------------
+55) Kanban teams use which practices to track progress and improve predictability:
+
+Cycle time, lead time, small batch size and throughput
+--------------------------------------------------------------
+56) When does a team choose Kanban to manage its work
+
+The team work is difficult to predict
+--------------------------------------------------------------
+57) What is interruption-driven work?
+
+work that is diffcult to predict in advance but needs a team in place to handle it when it comes up
+--------------------------------------------------------------
+58) Why do some teams combine Scrum and Kanban processes?
+
+Teams like scrum structure, with the kanban wip limits
+--------------------------------------------------------------
+59) When is it a good time to create a customized search solution?
+
+youre devloping an external knowledge base for user support
+--------------------------------------------------------------
+60) What differentiates SOSL from SOQL?
+
+Syntax, SOSL searched the seaach index instead of the org database, Sosl searches more effiency when you dont know in which objects the data resides 
+--------------------------------------------------------------
+61) What does a search for a single object look like in SOSL?
+
+FIND {cloud} RETURNING Account
+
+--------------------------------------------------------------
+62) How does  a custom object search differ from other queries?
+
+It includes _ _C at the end of the object name
+
+--------------------------------------------------------------
+63) How do you create efficient text searches?
+
+Limit what you re searching through and limit the number of results
+
+--------------------------------------------------------------
+64) What can admins do to influence the search results ranking?
+
+Set up synonym groups and promted search terms
+
+--------------------------------------------------------------
+65) Salesforce organizes your data into:
+
+object and records, like tabs and rows in spreadsheet
+
+--------------------------------------------------------------
+66) Salesforce customer success platform:
+
+Includes standard objects and a platform to deliver a personalized experience 
+
+--------------------------------------------------------------
+67) What does the navigation bar in Salesforce allow users to do?
+
+Access objects and items included in the app they are currently using
+
+--------------------------------------------------------------
+68) What does the App Launcher allow users to do?
+
+Access all standard, custom, and connected app in salesforce
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
 
 
