@@ -375,6 +375,67 @@ Access objects and items included in the app they are currently using
 
 Access all standard, custom, and connected app in salesforce
 --------------------------------------------------------------
+69) What's a key benefit (or benefits) of Lightning apps for your users?
+
+Users can create records and access recent records and list directly from the navigation bar
+It's easy to switch contexts with the App Launcher
+Lighning apps give user access to the items, object, and pages they need most
+
+--------------------------------------------------------------
+70) What can you include in a Lightning app?
+
+Web Tabs, standard and custom objects and utility features like lighnting voice
+--------------------------------------------------------------
+71) What's a good way to optimize an app for your users?
+
+put the hightest priority objects and tab first in the navigation menu
+
+--------------------------------------------------------------
+72) How do custom actions help your users?
+
+By giivng them more ways to view and edit records 
+By making it fast and easy to intract without information in your org
+
+--------------------------------------------------------------
+73) what diff between object-specific actions and global actions?
+
+Object specific actons have automatic relationships to other records and global actions dont
+
+--------------------------------------------------------------
+74) What must you do before adding new currencies to your company settings?
+
+Activate the multicurrency option to org
+
+--------------------------------------------------------------
+75) Enabling Advanced Currency Management enables your org to do what?
+
+Managed dated exchange rates
+
+--------------------------------------------------------------
+76) What’s the first step to take to create a list view?
+
+Open the list view controls menu
+
+--------------------------------------------------------------
+77) To take bulk actions on all of the available records in a list, you click the bulk action button without selecting any records
+
+True
+
+--------------------------------------------------------------
+78) Which of the following can you locate using Quick Find in Setup?
+
+The user setup page
+
+--------------------------------------------------------------
+79) True or false: You can customize settings for a standard or custom object using the Object Manager.
+
+True 
+
+--------------------------------------------------------------
+
+
+
+
 
 
 

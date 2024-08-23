@@ -8,8 +8,8 @@ Delivery of computing services such as servers, databases, networking and softwa
 
 2) What is Paas, Saas, Iaas?
 
-Plarform as services      - Salesforce mostly used pas beacuse we can customaizble and here we have some rules and customaizble
-Software as services      - Here we can used only the software functionality, we cant modify 
+Plarform as services       - Salesforce mostly used pas beacuse we can customaizble and here we have some rules and customaizble
+Software as services       - Here we can used only the software functionality, we cant modify 
 Infrastructure as services - We can modify 100% here, this is get the user name and password to the cloud we can modify anything --> AMAZON
 
 ................................................................................................................
@@ -236,7 +236,6 @@ using CASEFILED() function..
 -----------------------------------------------------------------------------------------------------------------
 45) What are the possible statuses of a permission set group?
 
-
 Active
 Failed
 Pending
@@ -252,28 +251,11 @@ microsoft dynamics
 sip
 
 -----------------------------------------------------------------------------------------------------------------
-48) Search Within a Single Object
 
-FIND {term} RETURNING ObjectTypeName
-
-FIND {march 2016 email} RETURNING Campaign
-
------------------------------------------------------------------------------------------------------------------
-49) Search Within Custom Objects
-
-FIND {pink hi\-top} RETURNING Merchandise__c
-
------------------------------------------------------------------------------------------------------------------
 50) SOSL and SOQL.
 
 Salesforce object search language
 salesforce object query language
-
------------------------------------------------------------------------------------------------------------------
-51)Search Within Multiple Objects
-
-FIND {term} RETURNING ObjectTypeName1, ObjectTypeName2, ObjectTypeNameYouGetTheIdea
-FIND {recycled materials} RETURNING Product2, ContentVersion, FeedItem
 
 -----------------------------------------------------------------------------------------------------------------
 52) Salesforce search?
@@ -288,15 +270,15 @@ Salesforce is desgined to help you sell, service, market, anayazle, connect with
 -----------------------------------------------------------------------------------------------------------------
 54) Record?
 
-An item you're tracking in your database; if your data is like a spreadsheet, then a record is a row on the spreadsheet
+An item you're tracking in your database; -- an record is a row on the spreadsheet
 -----------------------------------------------------------------------------------------------------------------
 55) Field?
 
-A place where you store a value, like a name or address; using our spreadsheet example, a field would be a column on the spreadsheet
+A place where you store a value, like a name or address; an field is a column on the spreadsheet
 -----------------------------------------------------------------------------------------------------------------
 56) object?
 
-A table in the database; in that spreadsheet example, an object is a tab on the spreadsheet
+A table in the database; an object is a tab on the spreadsheet
 -----------------------------------------------------------------------------------------------------------------
 57) org?
 
@@ -307,25 +289,60 @@ You and your users log in to access it. You might also hear this called “your 
 
 A set of fields, objects, permissions, and functionality to support a business process
 -----------------------------------------------------------------------------------------------------------------
+59) What is Public Cloud?
+What is Private Cloud?
+What is Hybrid Cloud?
+
+Public Cloud --> google cloud, oneDrive cloud we can access using the internet
+private cloud --> its very sercured one, it is connecting to help on VPN, specific network config we able to access the private cloud -> corportate companyies
+Hybrid  -> both of private and public -> public non sensiive info there maintain
+
+------------------------------------------------------------------------------------------------------------------
+
+60) What are the different types of Cloud Service providers?
+
+Module --> IAS,PAS,SAS
+Deplyoment --> Private, public hybird
+------------------------------------------------------------------------------------------------------------------
+61) Salesforce.com is based on which cloud ?
+
+SAS
+-------------------------------------------------------------------------------------------------------------
+62) Different Salesforce Editions?
+
+Essentails
+Professinal
+Enterprise
+unlimitd
+unlimited plus
+---------------------------------------------------------------------------------------------------------------
+63) Number of Salesforce Editions released per year?
+
+3
+---------------------------------------------------------------------------------------------------------------
+64) Difference between Salesforce.com and Force.com?
+
+Salesforce.com --> its underlying the salesforce functionality, object, fields, record 
+force.com      --> its backend process of the salesforce, via databases, code
+
+---------------------------------------------------------------------------------------------------------------
+65) What is Database.com?
+
+Data as a service to subscribesrs
+cloud based database designed for enterprise applications
+---------------------------------------------------------------------------------------------------------------
+66) How many types of portals are available in Salesforce?
+
+self-service
+customer
+partner
+
+---------------------------------------------------------------------------------------------------------------
+
 What happens when you try to delete a public group?
 What happens when you try to delete a queue?
 What are deployment modes of cloud computing?
-What is Public Cloud?
-What is Private Cloud?
-What is Hybrid Cloud?
-What are the different types of Cloud Service providers?
-Difference between Public and Private Cloud?
-Salesforce.com is based on which cloud ?
-What are common factors on SaaS, PaaS, and IaaS?
-Different Salesforce Editions?
-Number of Salesforce Editions released per year?
-Difference between Salesforce.com and Force.com?
-What is Database.com?
-How many types of portals are available in Salesforce?
-What is App in Sales force?
 Different types of object in Salesforce.com? And why they called so?
-What is an object in Sales force?
-What is TAB in Salesforce?
 List examples of custom field types?
 What are the Standard and Custom Fields in Salesforce?
 How many custom fields can I created in an object?
@@ -460,3 +477,25 @@ Once a lead is converted it is not visible anymore in the UI. Is there any permi
 You are trying to convert a master detail relationship field to lookup relationship. But you are not able to see the change field type button. What could be the reason?
 One of the users in your org is not able to create campaigns. You checked the profile/ permission sets and ensured that he has access to create campaigns. What could be the reason?
 ---------------------------------------------------------------------------------------------------------------
+
+
+Query 
+------
+48) Search Within a Single Object
+
+FIND {term} RETURNING ObjectTypeName
+
+FIND {march 2016 email} RETURNING Campaign
+
+-----------------------------------------------------------------------------------------------------------------
+49) Search Within Custom Objects
+
+FIND {pink hi\-top} RETURNING Merchandise__c
+
+-----------------------------------------------------------------------------------------------------------------
+51)Search Within Multiple Objects
+
+FIND {term} RETURNING ObjectTypeName1, ObjectTypeName2, ObjectTypeNameYouGetTheIdea
+FIND {recycled materials} RETURNING Product2, ContentVersion, FeedItem
+
+-----------------------------------------------------------------------------------------------------------------
