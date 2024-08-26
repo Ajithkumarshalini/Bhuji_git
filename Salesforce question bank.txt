@@ -338,11 +338,20 @@ customer
 partner
 
 ---------------------------------------------------------------------------------------------------------------
+67) What is a Lightning Page?
+
+A cusotm layout for creating pages in lightning experience and the salesforce mobile app
+
+---------------------------------------------------------------------------------------------------------------
+68) What can you build with the Lightning App Builder?
+
+At a glance, dashboard-styles apps
+Apps optimized for a particular task
+---------------------------------------------------------------------------------------------------------------
 
 What happens when you try to delete a public group?
 What happens when you try to delete a queue?
 What are deployment modes of cloud computing?
-Different types of object in Salesforce.com? And why they called so?
 List examples of custom field types?
 What are the Standard and Custom Fields in Salesforce?
 How many custom fields can I created in an object?

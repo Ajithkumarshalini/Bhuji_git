@@ -432,6 +432,11 @@ The user setup page
 True 
 
 --------------------------------------------------------------
+80) What is a Lightning Page?
+
+A cusotm layout for creating pages in lightning experience and the salesforce mobile app
+
+--------------------------------------------------------------
 
 
 
