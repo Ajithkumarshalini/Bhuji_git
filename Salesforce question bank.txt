@@ -8,8 +8,8 @@ Delivery of computing services such as servers, databases, networking and softwa
 
 2) What is Paas, Saas, Iaas?
 
-Plarform as services       - Salesforce mostly used pas beacuse we can customaizble and here we have some rules and customaizble
-Software as services       - Here we can used only the software functionality, we cant modify 
+Plarform as services                   - Salesforce mostly used pas beacuse we can customaizble and here we have some rules and customaizble
+Software as services     (SALESFORCE)  - Here we can used only the software functionality, we cant modify 
 Infrastructure as services - We can modify 100% here, this is get the user name and password to the cloud we can modify anything --> AMAZON
 
 ................................................................................................................
@@ -336,7 +336,6 @@ cloud based database designed for enterprise applications
 self-service
 customer
 partner
-
 ---------------------------------------------------------------------------------------------------------------
 67) What is a Lightning Page?
 
@@ -348,22 +347,72 @@ A cusotm layout for creating pages in lightning experience and the salesforce mo
 At a glance, dashboard-styles apps
 Apps optimized for a particular task
 ---------------------------------------------------------------------------------------------------------------
+69) What happens when you try to delete a public group?
 
-What happens when you try to delete a public group?
-What happens when you try to delete a queue?
-What are deployment modes of cloud computing?
-List examples of custom field types?
-What are the Standard and Custom Fields in Salesforce?
-How many custom fields can I created in an object?
-Number of standard profiles available in Salesforce.com?
-How can you use the term “Transfer Record” in profile?
-Define Company Profile?
-How to get security token in Salesforce.com?
-What is a Fiscal Year in Salesforce?
-What is a dependent pick list?
-What is Page Layout and Record Types?
-How to delete user from Salesforce?
-How to freeze users in salesforce.com?
+If deleted the group, does not remove any files associated with it, those remaining file in system.
+---------------------------------------------------------------------------------------------------------------
+70) What happens when you try to delete a queue?
+
+If queue was deleted, all memebers associated with the queue also removed
+---------------------------------------------------------------------------------------------------------------
+71) List examples of custom field types?
+
+text
+number
+currencey
+date
+picklist
+email
+url
+phone
+---------------------------------------------------------------------------------------------------------------
+72) How many custom fields can I created in an object?
+
+900 custom fields
+---------------------------------------------------------------------------------------------------------------
+72) How can you use the term “Transfer Record” in profile?
+
+To transfer the records between users in salesforce, we can use that --> profile --> admin permiss --> transfer records
+---------------------------------------------------------------------------------------------------------------
+74) Define Company Profile?
+
+standard profile - Six standard profile, sys admin, standard user, read only, marketing user, contract manager, solution manager
+custom profile - as per the needs org will create the profiles 
+---------------------------------------------------------------------------------------------------------------
+75) How to get security token in Salesforce.com?
+
+profile picture -> settings -> Reset my security token -> You can get an email 
+---------------------------------------------------------------------------------------------------------------
+76) What is a Fiscal Year in Salesforce?
+
+12 month period used for finiancial reporting and forecasting purposes
+---------------------------------------------------------------------------------------------------------------
+77) What is Page Layout and Record Types?
+
+Page Layout control the org and visiblity of fields section and buttons on record pages
+
+Record types enable the categorization of records within an object, allowing for different page layouts and picklist values
+
+---------------------------------------------------------------------------------------------------------------
+78) How to delete user from Salesforce?
+
+We cant
+---------------------------------------------------------------------------------------------------------------
+79) How to freeze users in salesforce.com?
+
+open the profile of user then you can freeze
+---------------------------------------------------------------------------------------------------------------
+80) What is Leads?
+
+Leads are typically individuals or org that a sales team identifies as potential oppurnities for business
+---------------------------------------------------------------------------------------------------------------
+81) What is oppurnitity?
+
+Qualifed as a potential customer
+Gather info like expected reveneue, close date
+---------------------------------------------------------------------------------------------------------------
+
+
 In how many ways can we store files, images and documents in salesforce.com? what are they?
 What are Static Resources?
 List some standard indexed fields in salesforce.com?

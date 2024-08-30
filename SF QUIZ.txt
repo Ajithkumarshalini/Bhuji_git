@@ -437,6 +437,75 @@ True
 A cusotm layout for creating pages in lightning experience and the salesforce mobile app
 
 --------------------------------------------------------------
+81) if you want login using specific user name means if we cant able to login, just you reset the password then try it 
+--------------------------------------------------------------
+82) While you're editing an opportunity, a colleague calls with some information that you need for an upcoming 
+presentation to your manager. What's the best way to create a note to save the details for later?
+
+Continue editing the opportunity while you select new note from the Global actions menu
+--------------------------------------------------------------
+83) On the redesigned Lightning Experience Home page, what can you use the Assistant to do?
+
+See opportunity with no activity in 30 days
+--------------------------------------------------------------
+84) Which of these can you do when editing an enhanced note in Lightning Experience?
+
+apply bold and italic formatting to text
+add images
+relate the note to multiple records
+--------------------------------------------------------------
+85) How do you attach a file to a record in Lightning Experience?
+
+Drag the file from your computer to the files related list card on the record 
+---------------------------------------------------------------
+86) Which actions can you complete on the Tasks home page?
+
+Edit existing task 
+create new task 
+mark as completee the task
+---------------------------------------------------------------
+87) What are two options for creating and sending emails in Lightning Experience?
+
+From the activity composer on a record and the Global Actions Menu 
+---------------------------------------------------------------
+88) What’s one thing you can’t do when reading a report on the report run page?
+
+Change the report type
+---------------------------------------------------------------
+89) What’s true of all widgets in the dashboard builder?
+
+They can be resized or moved on the dashboard canvas
+they include a link to open soruce report
+---------------------------------------------------------------
+90) Which of the following can you expect from opportunity teams?
+
+They share info, tips, or contact that helps close the deal
+---------------------------------------------------------------
+91) What type of split do you use to credit a supporting team member who wasn’t directly responsible for the revenue on an opportunity?
+
+an overlay split
+---------------------------------------------------------------
+92) You have a dozen open opportunities from different companies.
+ But when you check the Kanban view of your All Open Opportunities list,
+ you only see opportunities for one account. What should you do?
+ 
+ check the filter panel to see if records are being filtered out 
+---------------------------------------------------------------
+93) Which of these actions isn’t a valid way to update the status of a lead?
+
+In any list view, click shuffle to change up every record's status 
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
