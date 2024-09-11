@@ -495,28 +495,58 @@ an overlay split
 
 In any list view, click shuffle to change up every record's status 
 ---------------------------------------------------------------
+94) You can configure access to data at all of the following levels, except:
 
+Page layouts
+---------------------------------------------------------------
+95) Which of these is method for controlling record-level access?
 
+org wide defaults
+role hierarchy
+sharing rules 
+---------------------------------------------------------------
+96) What is a permission set group?
 
+A group of permissions set bundled together based on job function 
+---------------------------------------------------------------
+97) What are the benefits of using permission set groups?
 
+Simplified user assignments of permissions based on job functions
+----------------------------------------------------------------
+98) Why does Maria add the validation status field to the compact layout?
 
+To display it at top of each article 
+----------------------------------------------------------------
+99) Why would you want to control who sees an article using visibility settings?
 
+It has propriety information
+----------------------------------------------------------------
+100) How can Maria remove a visibility setting from a page layout?
 
+Remove the field
+----------------------------------------------------------------
+101) How do you create a validation status?
 
+By adding an item to the validation status picklist
+----------------------------------------------------------------
+102) True or false: You can create custom fields only on standard Salesforce objects.
 
+False
+----------------------------------------------------------------
+103) Why is it important to define a data type when you create a custom field?
 
+The data type determines how the field is formatted, such as by menu items, text, numbers, or currency.
+----------------------------------------------------------------
+104) Homepage
 
+overreview of first page and navigation of the page 
+----------------------------------------------------------------
+105) What is the maximum number of blocks allowed in a joined report?
 
+5
+---------------------------------------------------------------
+106) True or false: Blocks in a joined report must be based on related Salesforce objects.
 
-
-
-
-
-
-
-
-
-
-
-
+True
+---------------------------------------------------------------
 
