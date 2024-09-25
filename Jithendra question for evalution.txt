@@ -1,0 +1,92 @@
+Salesforce Basic - Association
+1-   Lead? 
+individual or organization
+When a person enters the database to purchase some products then we enter this person as lead. 
+Leads are simply prospective customer that you are trying to sell to 
+leads are converted to accounts, contacts, opportunity 
+Leads fields       - name, company, email, phone, status, lead source and more
+Lead assignment    - which leads are interest to buy the product, directly that leads assignment to salesperson, teams and follow up
+Lead Conversion    - leads converted to account, contacts, opportunity
+------------------------------------------------------------------------------------------------------------------
+2- Account?
+Account represents an 
+individual customer account, 
+organization, 
+partner involved with business. 
+account object in salesforce - which store all account details related you business like customer and competitors
+------------------------------------------------------------------------------------------------------------------
+3) Contacts?
+A contact is a record used to store personal and business info about individual. 
+contacts associated with the accounts, opportunity, case, and more
+------------------------------------------------------------------------------------------------------------------
+4) opportunity?
+opportunity represents sales and potential sales. Using Opportunities, we can forecast sales in an organization.
+Opportunities are past or pending sales for an account that you want to work and/or track. 
+-----------------------------------------------------------------------------------------------------------------
+5) Validation rule? Vs Formula field?
+Validation rule -
+Ensures data integrity by enforcing specific conditions before saving records
+Formula filed - 
+Automatically calculates values based on other fields within record 
+-----------------------------------------------------------------------------------------------------------------
+6) Bucket field?
+it’s a feature that allows users to categorize value in a field without creating a custom formula field.
+it does not exist the database. It is temporary for reporting purposes.
+-----------------------------------------------------------------------------------------------------------------7) Report? 
+Report means its having list of records that make sure meet the criteria what you define
+-----------------------------------------------------------------------------------------------------------------
+8) Dashboard? 
+Its visual display of key metrics and trends for records in your org 
+-----------------------------------------------------------------------------------------------------------------
+9) Reports Types and Explain?
+tabular - Tabular reports having the lists data in columns and rows
+summary - summary reports having the Groups rows into subtotals
+matrix - matrix reports having the Groups records by both rows and columns
+joined - Combines multiple reports together and creating the block of objects report 
+-----------------------------------------------------------------------------------------------------------------
+10) What is a campaign?
+Campaign helps to organize marketing plans and assets
+campaign is used to reach a target audience and achieve a desired outcome.
+-----------------------------------------------------------------------------------------------------------------
+11) Lightning App Builder Vs Lightning pages
+Lightning App Builder - 
+A point-and-click tool that allows users to create and modify pages and apps for the Salesforce mobile app and Lightning Experience.
+Lightning pages - 
+A custom layout that allows users to design pages for the Salesforce mobile app and Lightning Experience.
+-----------------------------------------------------------------------------------------------------------------
+12) Salesforce Classic vs Lightning Experience
+Salesforce Classic provides a classic user interface. 
+Lightning Experience is a modern, responsive UI with more capabilities, easier navigation, and customized dashboards.
+-----------------------------------------------------------------------------------------------------------------
+13) Page layout Vs Record Types
+Page layout - 
+Determine the arrangement of fields, section, and related list on a record detail page
+Record Types – 
+Record types allow you to offer different business process, pick list values, and page layout to different users
+-----------------------------------------------------------------------------------------------------------------
+14) compact layout 
+Display key fields at a glance of highlights panel
+-----------------------------------------------------------------------------------------------------------------
+15) profile 
+Profile is user bases level permission and access to the data
+-----------------------------------------------------------------------------------------------------------------
+16) Permission sets
+A permission sets extends the permissions to beyond the profile without modify the profile itself
+-----------------------------------------------------------------------------------------------------------------
+17) how to give restrict specific records in salesforce?
+OWD - org wide defaults
+role hierarchy 
+sharing rules
+manual sharing 
+-----------------------------------------------------------------------------------------------------------------
+18) Define Sharing rule, owd, permission set group? 
+sharing rule          - access to records for specific groups of users 
+owd                 - set the baseline access for records
+permission set group - combine multiple permissions set together, simplifying the assignment of permission to users
+------------------------------------------------------------------------------------------------------------------
+19) View All, Modify All -?
+View all   - users to see all records of an object 
+Modify all - user to allow edit, create or transfer all records of an object 
+------------------------------------------------------------------------------------------------------------------
+20) visibility of field bases on user profiles?
+you can control field visibility through Field level security in profiles and permission set 

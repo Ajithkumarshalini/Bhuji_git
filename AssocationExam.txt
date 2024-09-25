@@ -1,0 +1,180 @@
+1) Salesforce EcoSystem 38%
+
+describe learn in saleforce
+............................
+trailhead, trails, module,points, badges rank, saleforce help, community feed post your questions and answer
+dev org 
+
+
+saleforce customer 360 
+............................
+
+Sales - sales is used to sell the products 
+common standard objects
+
+Account   - company info
+Contact   - individual who works at company
+oppurnity - deal, agreemnet, oppurnity to sell
+lead      - prospective individual, not tied to a company
+
+service -- service cloud is used to service or support existing customer
+
+Account   - company info 
+contact   - individual who works at company
+case      - ticket, support request
+knowledge articles - documentation to send to contact
+
+marketing - marketing clous is going to feed directly into sales cloud, 
+marketing your product and its trying to make sure that people are aware of the brand products
+
+campaigns, email lists
+
+commerce cloud -- its directly to sell the products to induvidual customers using online platform 
+b2c product
+
+Experience -- protal users 
+self service portal
+partner portal
+consumer portal
+........................
+describe how company use saleforce
+............................
+customer - 
+company using salesforce with own data
+company users login to saleforce to access sales, cloud, service cloud 
+opearte company by using salesforce
+
+partner - 
+consultant
+hired by salesforce customers for help
+
+isv - build apps for app exchange 
+
+............................
+describe various job roles and carrer paths in the Salesforce ecosystem
+............................
+
+admin, 
+dev,
+consulation
+ba
+technical architect
+
+*******************************************************************************
+ 2) Navigation 28% 
+ 
+
+how a user can locate and access necessary info
+...............................................
+Using global search and using filter
+List views in records set to fields, rename, clone, 
+list view display - Split view, kanban view - its graphical represtation and it has stages, and we can able to drag the data's 
+
+open any records - 
+related records to linked some object or some related 
+detail - its showing the acutual fields and input values there 
+activity - emails, phone, marketing touches    
+
+
+personal info - you can select the user icon then you can navigate the email id, reset password etc
+
+...............................................
+identify where salesforce customzation takes place 
+.................................................
+setup - its back end process of the salesforce
+
+users - we can create the user setting up the role, profile, user license
+profile - We can see the standard profiles 
+
+objectManager
+
+creating the custom object 
+creating the new field, edit the field, page layout of the field, setup the relationship 
+*******************************************************************************
+
+3) Data Model 25%
+
+. Explain the relationship between the core stand objects (account, contact, lead, oppurnity, case)
+...............................................
+SchemaBuilder - its to related one object to another object its showing the relationship
+
+Master-detail relatioship 
+Lookup relationship
+
+. Given scenario, determine which feature to use ensure data visibilty
+...............................................
+Sharing Setting - visibilty of objects and giving access level
+
+org wide defaults - public - access every one, private - only access by owner, 
+write,delete,read,transfer
+
+profile        - all profile have the same setting and access
+permission set - can be assgined to individuals within a profile or across the profile 
+
+roles - you can set the which roles see the visibilty of object and access
+sharing rule hierachy
+
+. Given scenario, determine which tool to use to ensure data integrity
+...............................................
+required fields   - while creating the records they are showing the require field using * symbol
+validation rules  - validating the showing the popup or hint snag we enter to missed something
+field types (picklist, number, date etc)
+picklist - dropdown 
+text - we can anything
+date - its showing the calednder 
+
+*******************************************************************************
+
+4) Report and Dashboards 15%
+
+. Describe reports on saleforce
+...............................................
+report types - tabluar, summary, matrix, joined, custom
+
+outline group rows and colums, normal columns 
+filter created date show me 
+
+tabluar - no grouping 
+summary - row group
+matrix  - row & column group
+joined  - creating the block of objects report 
+
+
+sharing the reports in folder public or private 
+
+. Describe dashboard on saleforce
+...............................................
+dasboard allowing only 20 components
+
+grid, widgets 
+
+different charts.
+pie charts
+bar charts
+line grpah
+buble charts
+bullet charts
+gauge - speeding limit 
+
+dashboard filter and dashboard dymanics
+folders - public folders/private folders 
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
