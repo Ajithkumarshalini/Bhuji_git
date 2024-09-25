@@ -77,7 +77,7 @@ Dependent field
 
 11) What is the difference between role and profile
 
-role : what data users can see
+role   : what data users can see
 profile: what users can do within salesforce
 
 ................................................................................................................
@@ -90,7 +90,7 @@ The administrators to grant additonal permissions for special tasks or roles
 
 13) What is the use of muting permission set in permission set group?
 
-adminstrators diable the specific permissions
+adminstrators disable the specific permissions
 1) Temporary restrictions
 2) Dynamic Management 
 
@@ -301,7 +301,7 @@ Hybrid  -> both of private and public -> public non sensiive info there maintain
 
 60) What are the different types of Cloud Service providers?
 
-Module --> IAS,PAS,SAS
+Module     --> IAS,PAS,SAS
 Deplyoment --> Private, public hybird
 ------------------------------------------------------------------------------------------------------------------
 61) Salesforce.com is based on which cloud ?
@@ -435,18 +435,12 @@ Controlled by Parent:
  They cannot be used to restrict access to records beyond what was originally specified with the org-wide sharing defaults.
 
 ---------------------------------------------------------------------------------------------------------------
-83)  Reports?
 
-a report is a group of data that meets a set of criteria, such as a list of accounts.
----------------------------------------------------------------------------------------------------------------
 84) What does the running user of a dashboard do?
 
 Determines the data shown in the dashboard
 ---------------------------------------------------------------------------------------------------------------
-85) What is a dashboard?
 
-Dashboards show you the most important information you want
----------------------------------------------------------------------------------------------------------------
 86) What does a report type determine?
 
 Which fields and records are available for use when creating a report 
@@ -456,7 +450,9 @@ Which fields and records are available for use when creating a report
 Joined report can use mix of standard and custom object
 if they have relationships with the same objects only we can able to create the joined report
 ---------------------------------------------------------------------------------------------------------------
+Data module - creating the relatiship and schemeabuilder
 
+Data security - accesing the fileds, object, relationship, sharing setting org default wide setting, profile 
 
 
 
