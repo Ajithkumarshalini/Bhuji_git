@@ -2,14 +2,18 @@ question bank of salesforce:
 ...............................................................................................................
 
 1) What is Cloud Computing?
-Delivery of computing services such as servers, databases, networking and software and allowing user to access.
+Delivery of computing services such as 
+servers, 
+databases, 
+networking,
+software and allowing user to access.
 
 ...............................................................................................................
 
 2) What is Paas, Saas, Iaas?
 
-Plarform as services                   - Salesforce mostly used pas beacuse we can customaizble and here we have some rules and customaizble
-Software as services     (SALESFORCE)  - Here we can used only the software functionality, we cant modify 
+Plarform as services                   - we can customaizble and here we have some rules and customaizble
+Software as services     (SALESFORCE)  - we can used only the software functionality, we cant modify 
 Infrastructure as services - We can modify 100% here, this is get the user name and password to the cloud we can modify anything --> AMAZON
 
 ................................................................................................................
@@ -25,18 +29,10 @@ Partial copy sandbox
 Full sandbox
 ................................................................................................................
 
-4) What is Object in Salesforce?
-
-Object are database tables that permits you to store data.
-Standard object-> default 
-Custom object -> user
-
-................................................................................................................
-
 5) What are the different types of object relations in Salesforce?
 
-1) Master Detail --> Strong coupled relationship, Parent record was deleted automaically child records are deleted
-2) Lookup        --> Loosly coupled relationship, Is connect one object to another object one to one many fashion
+1) Master Detail --> Strong coupled relationship, When parent recors is automaically child record is deleted 
+2) Lookup        --> Loosly coupled relationship, Is connecting one object to another object one to one many fashion
 3) Hiearchy      --> Unique relationship, its connecting to user from user hiearchies
 
 ................................................................................................................
@@ -119,7 +115,8 @@ an officail inspection of a org account
 ----------------------------------------------------------------------------------------------------------------
 17) What is a Queue in Salesforce?
 
-SALESFORCE queues are list of records that have no owner. the records that are not assigned to anyone
+SALESFORCE queues are list of records that have no owner. 
+the records that are not assigned to anyone
 ----------------------------------------------------------------------------------------------------------------
 18) What is a Public Group
 
@@ -130,18 +127,6 @@ in salesforce, public gorups can be created by adminstrators and delegeted admin
 
 Static Dashboards  - fixed data
 Dynamic Dashoboards - real time or Near real time data
-----------------------------------------------------------------------------------------------------------------
-20) What are the different types of reports available in Salesforce?
-
-Tabular
-Summary
-Matrix
-Joined
-Custom 
-----------------------------------------------------------------------------------------------------------------
-21) What is Report Type?
-
-Report type provides objects, their relationships, fields in the reports 
 ----------------------------------------------------------------------------------------------------------------
 22) What are WhoId and WhatId in activities?
 
@@ -164,9 +149,9 @@ Utilize Automation tools
 ----------------------------------------------------------------------------------------------------------------
 25) Differences between Import wizard and Data loader
 
-Import Wizard - CLIENT Based application that's suited for larger files 
+Data loader   -   CLIENT Based application that's suited for larger files 
 
-Data loader -   WEB Based tool that's good for simple data imports.
+Import wizard -   WEB Based tool that's good for smaller data imports.
 ----------------------------------------------------------------------------------------------------------------
 26) What is “Data Skew” in Salesforce
 
@@ -174,7 +159,7 @@ large number of records owned by a single user, this can have serious consequenc
 ----------------------------------------------------------------------------------------------------------------
 27) What is cascade deletion?
 
-Its feature that automaically deletes related or child records when a parent record is deleted.
+Its feature, when a parent record is deleted automaically child record also delete
 ----------------------------------------------------------------------------------------------------------------
 28) What is a Flow?
 
@@ -218,7 +203,8 @@ setup/companysetting/company info --> instance -- here you can find the realse
 ----------------------------------------------------------------------------------------------------------------
 41) What is a big object? Give an example of a standard big object-
 
-FieldHistoryArchieve -> it will store more datas without down the performing, FieldHistoryArchieve is storing the audit trail datas
+FieldHistoryArchieve -> FieldHistoryArchieve is storing the audit trail datas
+it will store more datas without down the performing.
 ----------------------------------------------------------------------------------------------------------------
 42) What is the consideration while deleting an approval process?
 
@@ -276,7 +262,11 @@ An item you're tracking in your database; -- an record is a row on the spreadshe
 
 A place where you store a value, like a name or address; an field is a column on the spreadsheet
 -----------------------------------------------------------------------------------------------------------------
-56) object?
+What is Object in Salesforce?
+
+Object are database tables that permits you to store data.
+Standard object-> default 
+Custom object -> user
 
 A table in the database; an object is a tab on the spreadsheet
 -----------------------------------------------------------------------------------------------------------------
@@ -322,8 +312,8 @@ unlimited plus
 ---------------------------------------------------------------------------------------------------------------
 64) Difference between Salesforce.com and Force.com?
 
-Salesforce.com --> its underlying the salesforce functionality, object, fields, record 
-force.com      --> its backend process of the salesforce, via databases, code
+Salesforce.com --> refers to the crm funconality viz sales,service, marketing apps
+force.com      --> refers to the underlying platform viz data base, code
 
 ---------------------------------------------------------------------------------------------------------------
 65) What is Database.com?
@@ -336,12 +326,7 @@ cloud based database designed for enterprise applications
 self-service
 customer
 partner
----------------------------------------------------------------------------------------------------------------
-67) What is a Lightning Page?
-
-A cusotm layout for creating pages in lightning experience and the salesforce mobile app
-
----------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 68) What can you build with the Lightning App Builder?
 
 At a glance, dashboard-styles apps
@@ -372,12 +357,12 @@ phone
 ---------------------------------------------------------------------------------------------------------------
 72) How can you use the term “Transfer Record” in profile?
 
-To transfer the records between users in salesforce, we can use that --> profile --> admin permiss --> transfer records
+we can use that --> profile --> admin permiss --> transfer records
 ---------------------------------------------------------------------------------------------------------------
 74) Define Company Profile?
 
 standard profile - Six standard profile, sys admin, standard user, read only, marketing user, contract manager, solution manager
-custom profile - as per the needs org will create the profiles 
+custom profile   - as per the needs org will create the profiles 
 ---------------------------------------------------------------------------------------------------------------
 75) How to get security token in Salesforce.com?
 
@@ -387,13 +372,6 @@ profile picture -> settings -> Reset my security token -> You can get an email
 
 12 month period used for finiancial reporting and forecasting purposes
 ---------------------------------------------------------------------------------------------------------------
-77) What is Page Layout and Record Types?
-
-Page Layout control the org and visiblity of fields section and buttons on record pages
-
-Record types enable the categorization of records within an object, allowing for different page layouts and picklist values
-
----------------------------------------------------------------------------------------------------------------
 78) How to delete user from Salesforce?
 
 We cant
@@ -402,16 +380,49 @@ We cant
 
 open the profile of user then you can freeze
 ---------------------------------------------------------------------------------------------------------------
-80) What is Leads?
+84) What does the running user of a dashboard do?
 
-Leads are typically individuals or org that a sales team identifies as potential oppurnities for business
+Determines the data shown in the dashboard
 ---------------------------------------------------------------------------------------------------------------
-81) What is oppurnitity?
+86) What does a report type determine?
 
-Qualifed as a potential customer
-Gather info like expected reveneue, close date
+Which fields and records are available for use when creating a report 
 ---------------------------------------------------------------------------------------------------------------
-82) Control Access to Records 
+Data module - 
+creating the relatiship and schemeabuilder
+
+fields, dependent fields, support process, add picklist values 
+---------------------------------------------------------------------------------------------------------------
+Data security - 
+accesing the fileds, object, relationship, 
+sharing setting, org wide default setting, profile 
+---------------------------------------------------------------------------------------------------------------
+assignement rule?
+
+assignment rule in salesforce is used to automatically assign the cases or leads to owner based on certain criteria
+---------------------------------------------------------------------------------------------------------------
+Escaltion rules?
+
+Escaltion rule in salesforce is used to automatically esclated cases when the established criteria are met 
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Control Access to Records 
 
 private:
 
@@ -433,29 +444,6 @@ Controlled by Parent:
  an admin can grant users additional access to records by setting up a role hierarchy or defining sharing rules. 
  Sharing rules can only be used to grant additional access. 
  They cannot be used to restrict access to records beyond what was originally specified with the org-wide sharing defaults.
-
----------------------------------------------------------------------------------------------------------------
-
-84) What does the running user of a dashboard do?
-
-Determines the data shown in the dashboard
----------------------------------------------------------------------------------------------------------------
-
-86) What does a report type determine?
-
-Which fields and records are available for use when creating a report 
----------------------------------------------------------------------------------------------------------------
-87) What is joined report?
-
-Joined report can use mix of standard and custom object
-if they have relationships with the same objects only we can able to create the joined report
----------------------------------------------------------------------------------------------------------------
-Data module - creating the relatiship and schemeabuilder
-
-Data security - accesing the fileds, object, relationship, sharing setting org default wide setting, profile 
-
-
-
 
 
 

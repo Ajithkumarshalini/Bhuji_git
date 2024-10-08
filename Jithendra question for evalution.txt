@@ -1,14 +1,16 @@
 Salesforce Basic - Association
-1-   Lead? 
+------------------------------
+
+1)  Lead? 
 individual or organization
 When a person enters the database to purchase some products then we enter this person as lead. 
 Leads are simply prospective customer that you are trying to sell to 
-leads are converted to accounts, contacts, opportunity 
+
 Leads fields       - name, company, email, phone, status, lead source and more
 Lead assignment    - which leads are interest to buy the product, directly that leads assignment to salesperson, teams and follow up
 Lead Conversion    - leads converted to account, contacts, opportunity
 ------------------------------------------------------------------------------------------------------------------
-2- Account?
+2) Account?
 Account represents an 
 individual customer account, 
 organization, 
@@ -32,7 +34,8 @@ Automatically calculates values based on other fields within record
 6) Bucket field?
 it’s a feature that allows users to categorize value in a field without creating a custom formula field.
 it does not exist the database. It is temporary for reporting purposes.
------------------------------------------------------------------------------------------------------------------7) Report? 
+-----------------------------------------------------------------------------------------------------------------
+7) Report? 
 Report means its having list of records that make sure meet the criteria what you define
 -----------------------------------------------------------------------------------------------------------------
 8) Dashboard? 
@@ -81,7 +84,7 @@ manual sharing
 -----------------------------------------------------------------------------------------------------------------
 18) Define Sharing rule, owd, permission set group? 
 sharing rule          - access to records for specific groups of users 
-owd                 - set the baseline access for records
+owd                   - set the baseline access for records
 permission set group - combine multiple permissions set together, simplifying the assignment of permission to users
 ------------------------------------------------------------------------------------------------------------------
 19) View All, Modify All -?
@@ -90,3 +93,17 @@ Modify all - user to allow edit, create or transfer all records of an object
 ------------------------------------------------------------------------------------------------------------------
 20) visibility of field bases on user profiles?
 you can control field visibility through Field level security in profiles and permission set 
+------------------------------------------------------------------------------------------------------------------
+21) Dynamic form? 
+its feature that allows you to configure and customize the layout
+------------------------------------------------------------------------------------------------------------------
+22) What are the lighting components?
+
+lighing components are reusable building blocks for the salesforce lighning ui, allowing for dynamic app creation
+
+Eg, Activity, chatter, record detail, recent items, report chart
+------------------------------------------------------------------------------------------------------------------
+23) what is dynamic dashboard?
+
+A dynamic dashboard in Salesforce is a customizable tool that enables users to track and analyze their performance metrics in real-time
+------------------------------------------------------------------------------------------------------------------
