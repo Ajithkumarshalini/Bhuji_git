@@ -1,0 +1,13 @@
+flow
+apprval process
+service cloud
+soql
+---------------------------------------------------------------------------------------------------------------
+* assignement rule?
+
+assignment rule in salesforce is used to automatically assign the cases or leads to owner based on certain criteria
+---------------------------------------------------------------------------------------------------------------
+* Escaltion rules?
+
+Escaltion rule in salesforce is used to automatically esclated cases when the established criteria are met 
+---------------------------------------------------------------------------------------------------------------

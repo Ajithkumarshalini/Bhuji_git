@@ -1,0 +1,98 @@
+SALESFORCE ADMIN
+---------------------------------------------------------------------------------------------
+1) Configuration and setup 20% 
+Company settings
+
+login ip address vs login hours
+users vs multiple users
+session setting 
+password policies
+health check 
+
+UI features
+Company information
+Locale settings
+Search results
+List views
+Currency management
+Fiscal year
+Default settings
+Homepage layouts
+User management
+Security settings
+Sharing settings
+
+
+---------------------------------------------------------------------------------------------
+2) Object Manager & Lighning app builder 20% 
+
+Standart object model architecture and relationship model 
+
+---------------------------------------
+Customize an Org to Support a New Business Unit
+
+Manage user access  - create trailhead and create new users
+Manage Chatter      - Accounts related adding the cases, then create chatter group and adding the memebers in that group
+modifying data model- fields, dependent fields, support process, add picklist values 
+Configure an        - files, add the img here. then Enhanced Letterheads here you can create the letterheads, Email Template and send it to any records 
+Email Letterhead and Template 
+Automate Your Business Process - Create assignment rules, create escaltion rules 
+
+Create assignment rules: Queue, Case Assignment Rules, 
+Create Escalation Rules: Escalation Rules
+---------------------------------------
+Identity Basics
+
+Get to Know Salesforce Identity
+Get To Know Your Salesforce Identity Users
+Learn the Language of Identity
+---------------------------------------------------------------------------------------------
+3)
+
+
+
+
+
+
+
+
+
+
+
+
+Unlock Business Success with Salesforce Data Platform
+
+Sales                         - lead, oppurinites
+help customer after the sales - cases, communities for customer engagement
+work on the go                - salesforce mobile app
+colabrate with cowork,partner - slack, communities to connect your company
+Market to your audience       - Marketing cloud
+Automate common business func - build workflow
+Work smarter and improve      - Salesforce Einstein for predicite and genrate ai tools 
+productivity
+
+
+1) App
+app in Salesforce is a set of objects, fields, and other functionality that supports a business process.
+
+2) Objects
+Objects are tables in the Salesforce database that store a particular kind of information. 
+There are standard objects like Accounts and Contacts and custom objects like the Property object you see in the graphic.
+
+3) Record 
+Records are rows in object database tables. Records are the actual data associated with an object.
+
+4) Field
+Fields are columns in object database tables. Both standard and custom objects have fields. 
+
+-----------------------------------------------------------------------------------------------------
+10/07/2024 **Prepare Your Salesforce Org for Users
+
+Set Up the Exchange Rate           -- multiple currencies add and rates 
+
+Update the Exchange Rate with ACM  -- manage currencies -> Update the Euro exchange rate with a start date and rates also 
+
+Customize the Home Page            -- using the componets and activate that
+Create a Unique Account List View
+Create Chatter Groups 
+------------------------------------------------------------------------------------------------------

@@ -36,17 +36,29 @@ it’s a feature that allows users to categorize value in a field without creati
 it does not exist the database. It is temporary for reporting purposes.
 -----------------------------------------------------------------------------------------------------------------
 7) Report? 
-Report means its having list of records that make sure meet the criteria what you define
------------------------------------------------------------------------------------------------------------------
-8) Dashboard? 
-Its visual display of key metrics and trends for records in your org 
------------------------------------------------------------------------------------------------------------------
-9) Reports Types and Explain?
+Report means its having list of records that make sure meet the criteria what you define 
+
+Reports Types and Explain?
 tabular - Tabular reports having the lists data in columns and rows
 summary - summary reports having the Groups rows into subtotals
 matrix - matrix reports having the Groups records by both rows and columns
 joined - Combines multiple reports together and creating the block of objects report 
+
 -----------------------------------------------------------------------------------------------------------------
+8) Dashboard? 
+Its visual display of key metrics and trends for records in your org 
+
+Static Dashboards  - fixed data
+Dynamic Dashoboards - real time or Near real time data
+
+A dynamic dashboard in Salesforce is a customizable tool that enables users to track and analyze their performance metrics in real-time
+
+What does the running user of a dashboard do?
+
+Determines the data shown in the dashboard
+
+-----------------------------------------------------------------------------------------------------------------
+
 10) What is a campaign?
 Campaign helps to organize marketing plans and assets
 campaign is used to reach a target audience and achieve a desired outcome.
@@ -54,6 +66,10 @@ campaign is used to reach a target audience and achieve a desired outcome.
 11) Lightning App Builder Vs Lightning pages
 Lightning App Builder - 
 A point-and-click tool that allows users to create and modify pages and apps for the Salesforce mobile app and Lightning Experience.
+
+What can you build with the Lightning App Builder?
+At a glance, dashboard-styles apps
+
 Lightning pages - 
 A custom layout that allows users to design pages for the Salesforce mobile app and Lightning Experience.
 -----------------------------------------------------------------------------------------------------------------
@@ -75,7 +91,15 @@ Profile is user bases level permission and access to the data
 -----------------------------------------------------------------------------------------------------------------
 16) Permission sets
 A permission sets extends the permissions to beyond the profile without modify the profile itself
------------------------------------------------------------------------------------------------------------------
+
+What is the use of muting permission set in permission set group?
+
+adminstrators disable the specific permissions
+1) Temporary restrictions
+2) Dynamic Management 
+
+----------------------------------------------------------------------------------------------------------------
+
 17) how to give restrict specific records in salesforce?
 OWD - org wide defaults
 role hierarchy 
@@ -103,7 +127,5 @@ lighing components are reusable building blocks for the salesforce lighning ui, 
 
 Eg, Activity, chatter, record detail, recent items, report chart
 ------------------------------------------------------------------------------------------------------------------
-23) what is dynamic dashboard?
-
-A dynamic dashboard in Salesforce is a customizable tool that enables users to track and analyze their performance metrics in real-time
-------------------------------------------------------------------------------------------------------------------
+23) role   : what data users can see
+profile: what users can do within salesforce
