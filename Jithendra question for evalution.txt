@@ -41,8 +41,8 @@ Report means its having list of records that make sure meet the criteria what yo
 Reports Types and Explain?
 tabular - Tabular reports having the lists data in columns and rows
 summary - summary reports having the Groups rows into subtotals
-matrix - matrix reports having the Groups records by both rows and columns
-joined - Combines multiple reports together and creating the block of objects report 
+matrix  - matrix reports having the Groups records by both rows and columns
+joined  - Combines multiple reports together and creating the block of objects report 
 
 -----------------------------------------------------------------------------------------------------------------
 8) Dashboard? 
@@ -59,9 +59,24 @@ Determines the data shown in the dashboard
 
 -----------------------------------------------------------------------------------------------------------------
 
-10) What is a campaign?
+10) What is a campaign? - Marketing profile 
 Campaign helps to organize marketing plans and assets
 campaign is used to reach a target audience and achieve a desired outcome.
+
+Campaign Hierarchy - its shows the number of responses in the hierarchy
+3 number of levels in a campaign hierarchy
+
+how to create a campaign hierarchy?
+Enter a campaign name in the Parent Campaign field on a campaign record.
+
+campaign record types?
+Track different details for different kinds of campaigns.
+
+Where can you find the built-in campaigns reports?
+in the campaign folder on the reports tabular
+
+What kind of information can you see with the built-in Campaign reports?
+Who has responded to each campaign
 -----------------------------------------------------------------------------------------------------------------
 11) Lightning App Builder Vs Lightning pages
 Lightning App Builder - 
@@ -86,8 +101,11 @@ Record types allow you to offer different business process, pick list values, an
 14) compact layout 
 Display key fields at a glance of highlights panel
 -----------------------------------------------------------------------------------------------------------------
-15) profile 
+15) profile vs roles
 Profile is user bases level permission and access to the data
+
+role 
+Roles determine a users visiblity to records within the org based on role hierarchy structure
 -----------------------------------------------------------------------------------------------------------------
 16) Permission sets
 A permission sets extends the permissions to beyond the profile without modify the profile itself
@@ -127,5 +145,3 @@ lighing components are reusable building blocks for the salesforce lighning ui, 
 
 Eg, Activity, chatter, record detail, recent items, report chart
 ------------------------------------------------------------------------------------------------------------------
-23) role   : what data users can see
-profile: what users can do within salesforce

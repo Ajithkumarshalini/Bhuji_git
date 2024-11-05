@@ -8,13 +8,19 @@ databases,
 networking,
 software and allowing user to access.
 
-...............................................................................................................
+What are the different types of Cloud Service providers?
 
-2) What is Paas, Saas, Iaas?
+Module     --> IAS,PAS,SAS
+Deplyoment --> Private, public hybird
 
 Plarform as services                   - we can customaizble and here we have some rules and customaizble
 Software as services     (SALESFORCE)  - we can used only the software functionality, we cant modify 
 Infrastructure as services - We can modify 100% here, this is get the user name and password to the cloud we can modify anything --> AMAZON
+
+
+Public Cloud --> google cloud, oneDrive cloud we can access using the internet
+private cloud --> its very sercured one, it is connecting to help on VPN, specific network config we able to access the private cloud -> corportate companyies
+Hybrid  -> both of private and public -> public non sensiive info there maintain
 
 ................................................................................................................
 
@@ -78,19 +84,6 @@ profile: what users can do within salesforce
 
 ................................................................................................................
 
-12) What are Permission sets?
-
-The administrators to grant additonal permissions for special tasks or roles
-
-................................................................................................................
-
-13) What is the use of muting permission set in permission set group?
-
-adminstrators disable the specific permissions
-1) Temporary restrictions
-2) Dynamic Management 
-
-----------------------------------------------------------------------------------------------------------------
 14) How many ways we can share a record?
 
 Over 25 ways to share a records
@@ -117,16 +110,19 @@ an officail inspection of a org account
 
 SALESFORCE queues are list of records that have no owner. 
 the records that are not assigned to anyone
+
+What happens when you try to delete a queue?
+
+If queue was deleted, all memebers associated with the queue also removed
 ----------------------------------------------------------------------------------------------------------------
 18) What is a Public Group
 
 in salesforce, public gorups can be created by adminstrators and delegeted administrators. anyone in the org can use the public group
 
-----------------------------------------------------------------------------------------------------------------
-19) What is the difference between static and dynamic dashboards in Salesforce?
+What happens when you try to delete a public group?
 
-Static Dashboards  - fixed data
-Dynamic Dashoboards - real time or Near real time data
+If deleted the group, does not remove any files associated with it, those remaining file in system.
+
 ----------------------------------------------------------------------------------------------------------------
 22) What are WhoId and WhatId in activities?
 
@@ -135,10 +131,6 @@ Events and Task objects
 who  -- contact, lead, person account
 what -- oppurnities, cases, accounts, campaigns
 
-----------------------------------------------------------------------------------------------------------------
-23) What is a bucket field in reports?
-
-its a feature that allows users to categorize value in a field without creating a custom formula field.
 ----------------------------------------------------------------------------------------------------------------
 24) Way to clean data in Salesforce
 
@@ -279,25 +271,7 @@ You and your users log in to access it. You might also hear this called “your 
 
 A set of fields, objects, permissions, and functionality to support a business process
 -----------------------------------------------------------------------------------------------------------------
-59) What is Public Cloud?
-What is Private Cloud?
-What is Hybrid Cloud?
 
-Public Cloud --> google cloud, oneDrive cloud we can access using the internet
-private cloud --> its very sercured one, it is connecting to help on VPN, specific network config we able to access the private cloud -> corportate companyies
-Hybrid  -> both of private and public -> public non sensiive info there maintain
-
-------------------------------------------------------------------------------------------------------------------
-
-60) What are the different types of Cloud Service providers?
-
-Module     --> IAS,PAS,SAS
-Deplyoment --> Private, public hybird
-------------------------------------------------------------------------------------------------------------------
-61) Salesforce.com is based on which cloud ?
-
-SAS
--------------------------------------------------------------------------------------------------------------
 62) Different Salesforce Editions?
 
 Essentails
@@ -327,19 +301,7 @@ self-service
 customer
 partner
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-68) What can you build with the Lightning App Builder?
 
-At a glance, dashboard-styles apps
-Apps optimized for a particular task
----------------------------------------------------------------------------------------------------------------
-69) What happens when you try to delete a public group?
-
-If deleted the group, does not remove any files associated with it, those remaining file in system.
----------------------------------------------------------------------------------------------------------------
-70) What happens when you try to delete a queue?
-
-If queue was deleted, all memebers associated with the queue also removed
----------------------------------------------------------------------------------------------------------------
 71) List examples of custom field types?
 
 text
@@ -350,8 +312,8 @@ picklist
 email
 url
 phone
----------------------------------------------------------------------------------------------------------------
-72) How many custom fields can I created in an object?
+
+How many custom fields can I created in an object?
 
 900 custom fields
 ---------------------------------------------------------------------------------------------------------------
@@ -360,6 +322,8 @@ phone
 we can use that --> profile --> admin permiss --> transfer records
 ---------------------------------------------------------------------------------------------------------------
 74) Define Company Profile?
+
+profile: what users can do within salesforce
 
 standard profile - Six standard profile, sys admin, standard user, read only, marketing user, contract manager, solution manager
 custom profile   - as per the needs org will create the profiles 
@@ -380,13 +344,8 @@ We cant
 
 open the profile of user then you can freeze
 ---------------------------------------------------------------------------------------------------------------
-84) What does the running user of a dashboard do?
 
-Determines the data shown in the dashboard
----------------------------------------------------------------------------------------------------------------
-86) What does a report type determine?
 
-Which fields and records are available for use when creating a report 
 ---------------------------------------------------------------------------------------------------------------
 Data module - 
 creating the relatiship and schemeabuilder
@@ -397,27 +356,9 @@ Data security -
 accesing the fileds, object, relationship, 
 sharing setting, org wide default setting, profile 
 ---------------------------------------------------------------------------------------------------------------
-assignement rule?
-
-assignment rule in salesforce is used to automatically assign the cases or leads to owner based on certain criteria
----------------------------------------------------------------------------------------------------------------
-Escaltion rules?
-
-Escaltion rule in salesforce is used to automatically esclated cases when the established criteria are met 
----------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
+I have completed few Kt recordings and
+also currently going through the remaining KT videos.
+I got all manadatory access and i updated in spreshsheet aswell
 
 
 

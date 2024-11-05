@@ -19,12 +19,10 @@ lead      - prospective individual, not tied to a company
 
 service -- service cloud is used to service or support existing customer
 
-Account   - company info 
-contact   - individual who works at company
 case      - ticket, support request
 knowledge articles - documentation to send to contact
 
-marketing - marketing clous is going to feed directly into sales cloud, 
+marketing - marketing cloud is going to feed directly into sales cloud, 
 marketing your product and its trying to make sure that people are aware of the brand products
 
 campaigns, email lists
@@ -35,7 +33,7 @@ b2c product
 Experience -- protal users 
 self service portal
 partner portal
-consumer portal
+consutmer portal
 ........................
 describe how company use saleforce
 ............................
@@ -134,11 +132,10 @@ report types - tabluar, summary, matrix, joined, custom
 outline group rows and colums, normal columns 
 filter created date show me 
 
-tabluar - no grouping 
-summary - row group
-matrix  - row & column group
-joined  - creating the block of objects report 
-
+tabluar - Tabluar reports having the lists data in columns and rows
+summary - summary reports having the Groups rows into subtotals
+matrix  - matrix reports having the Groups records by both rows and columns
+joined  - Combines multiple reports together and creating the block of objects report 
 
 sharing the reports in folder public or private 
 

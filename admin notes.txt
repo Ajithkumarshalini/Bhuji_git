@@ -47,7 +47,63 @@ Get to Know Salesforce Identity
 Get To Know Your Salesforce Identity Users
 Learn the Language of Identity
 ---------------------------------------------------------------------------------------------
-3)
+3) sales and marketing 12% - 7 question
+
+sales process 
+path 
+lead score
+enistein score
+lead assignment rules
+lead conversion
+---------------------------------------------------------------------------------------------
+4) Service and support applications 12% - 7 Question 
+
+case
+
+case assignment rules
+auto response rules
+escaltion rules
+web to case
+email to case
+----------------------------------------------------------------------------------------------
+5) Prodivity and coloabrtion -7 % 4 questions
+
+Actitivty 
+chatter - follow the records, accounts, only they get an latest update on group msg, like post, poll, questions
+appexchange
+ 
+ ----------------------------------------------------------------------------------------------
+6) Data & analtics management - 14%  8 question
+
+Data Validation
+Validation rules
+reports
+reports type
+report sharing
+dashboards
+import/exporting - data exporting
+data import wixard
+data loader
+mass delete records
+-----------------------------------------------------------------------------------------------
+7) workflow/process automation 10 question
+
+approval process
+workflow rules
+process builder
+flows
+types of flows screen flow, record triggerd, screen trig
+
+-----------------------------------------------------------------------------------------------
+
+
+ 
+ 
+ 
+ 
+ 
+
+
 
 
 

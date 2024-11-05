@@ -11,3 +11,19 @@ assignment rule in salesforce is used to automatically assign the cases or leads
 
 Escaltion rule in salesforce is used to automatically esclated cases when the established criteria are met 
 ---------------------------------------------------------------------------------------------------------------
+What is Workflow?
+
+Workflow automates the following types of actions based on your organization's processes:
+
+Tasks              — Assign a new task to a user, role, or record owner.
+Email Alerts       — Send an email to one or more recipients you specify.(before you have to create classic email templete)
+Field Updates      — Update the value of a field on a record.
+Outbound Messages  — Send a secure, configurable API message (in XML format) to a designated listener.
+--------------------------------------------------------------------------------------------------------------- 
+
+Flow -- 
+
+screen flow - 
+
+1) Create a contact record related to Account 
+2) Place Screen flow on account record page to created a related oppurnity 
